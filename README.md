@@ -2,6 +2,7 @@ Algorithms
 ==========
 A library of data structures and algorithms.
 
+
 Contents
 --------
 
@@ -9,6 +10,7 @@ datastructs
 + String, Array, ArrayList
 + LinkedList, Deque
 + HashMap, HashSet
+
 
 Usage
 -----
@@ -19,6 +21,7 @@ Usage
 >>> x.append(1)
 >>> print(x)
 ```
+
 
 Tests
 -----
