@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+
+Search
++ quickselect
+
+Sort
+- bucketsort (great for uniform distribution), radix sort
+- quicksort, mergesort, heapsort
+
+Heap - minheap, maxheap
+
+GraphDict, GraphMatrix
+- bfs, dfs, bidirectional search
+
+--------------------------------------------------------------------------------
+
+Unittest
+
+Suggestions for the future (unittest)
++ Start with simple tests without subtests before adding more rigorous tests
+  with multiple subtests.
++ A dictionary of arbitrary strings and a seeded rng would have been pretty
+  useful.
++ Tests need to be better modularized like those in test_hashset.py.
+
+TODO
++ TestHashMap.test_str, TestHashSet.test_str (requires regex)
+
+Known issues (unitttest)
++ Test case inheritance has been implemented poorly. When TestDeque is run,
+  tests it inherits from TestLinkedList run twice.
++ Test methods do not need to clean up objects created by setUp and used by
+  other test methods in the same test case - it appears that setUp is called
+  before each test method is run (perhaps unittest creates a new TestCase
+  instance per test method).
