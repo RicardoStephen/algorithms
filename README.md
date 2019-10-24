@@ -1,25 +1,38 @@
 Algorithms
 ==========
-A library of data structures and algorithms.
+A minimal library of data structures and algorithms.
 
 
 Contents
---------
+---------
 
-datastructs
-+ String, Array, ArrayList
-+ LinkedList, Deque
-+ HashMap, HashSet
+```
+algorithms
+    datastructs
+        String    : len, getitem
+        Array     : len, getitem, setitem
+        ArrayList : len, getitem, setitem
+                    append, extend, pop
+        
+        LinkedList : appendleft, popleft, iter
+        Deque      : appendleft, popleft
+                     append, extend, pop
+                     iter, reversed
+        
+        HashMap    : getitem, setitem
+        HashSet    : add, remove, contains
+```
 
 
 Usage
 -----
 
 ```
->>> import datastructs
->>> x = datastructs.LinkedList()
->>> x.append(1)
->>> print(x)
+>>> import algorithms
+>>> x = algorithms.datastructs.Deque()
+>>> x.appendleft(1)
+>>> x
+deque([1])
 ```
 
 
@@ -28,8 +41,8 @@ Tests
 
 ```
 # Discover all tests
-python3 -m unittest discover tests
+python3 -m unittest discover test
 
 # Run specific test module/case/method
-python3 -m unittest tests.test_string # .TestString.test_len
+python3 -m unittest test.test_string # .TestString.test_len
 ```

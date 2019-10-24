@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+
+Search
++ quickselect
+
+Sort
+- bucketsort (great for uniform distribution), radix sort
+- quicksort, mergesort, heapsort
+
+Heap - minheap, maxheap
+
+GraphDict, GraphMatrix
+- bfs, dfs, bidirectional search

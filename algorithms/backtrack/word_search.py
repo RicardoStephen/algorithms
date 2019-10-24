@@ -15,11 +15,13 @@ Example:
     ['S','F','C','S'],
     ['A','D','E','E']
   ]
-  
+
   Given word = "ABCCED", return true.
   Given word = "SEE", return true.
   Given word = "ABCB", return false.
 
+
+https://leetcode.com/problems/word-search/
 """
 
 
@@ -69,5 +71,7 @@ if __name__ == '__main__':
              ['S','F','C','S'],
              ['A','D','E','E']]
     cases = ["ABCCED", "SEE", "ABCB"]
+    solutions = [True, True, False]
     results = [solution.exist(board, case) for case in cases]
     print(results)
+    assert(results == solutions)
