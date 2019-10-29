@@ -2,7 +2,7 @@ import unittest
 import math
 
 from test import Utils
-from algorithms.datastructs.hashset import HashSet
+from algorithms.datastructs import HashSet
 
 
 class TestHashSet(unittest.TestCase):

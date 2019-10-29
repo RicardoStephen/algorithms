@@ -2,7 +2,7 @@ import unittest
 import math
 
 from test import Utils
-from algorithms.datastructs.hashmap import HashMap
+from algorithms.datastructs import HashMap
 
 
 class TestHashMap(unittest.TestCase):
