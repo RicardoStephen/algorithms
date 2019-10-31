@@ -37,7 +37,7 @@ class TestDeque(TestLinkedList):
 
     # Inherit add_values
 
-    # Inherit test_len, test_str
+    # Inherit test_init, test_len, test_str
 
     # Inherit test_appendleft, test_popleft, test_popleft_invalid
 

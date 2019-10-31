@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from . import LinkedList
+from algorithms.datastructs.linkedlist import LinkedList
 
 
 class Deque(LinkedList):

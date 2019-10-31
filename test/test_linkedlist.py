@@ -49,6 +49,9 @@ class TestLinkedList(unittest.TestCase):
             pyll.appendleft(val)
             self.check_equal(myll, pyll)
 
+    def test_init(self):
+        pass
+
     def test_len(self):
         for pyll, myll in zip(self.pylls.values(), self.mylls.values()):
             with self.subTest(pyll = pyll, myll = myll):

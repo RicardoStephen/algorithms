@@ -25,3 +25,10 @@ def str_generator(ord_start=97, ord_end=122):
                 break
         generated = ''.join(map(chr, reversed(ords)))
         yield(generated)
+
+def intstr_generator():
+    intgen = int_generator()
+    strgen = str_generator()
+    while True:
+        yield(next(intgen))
+        yield(next(strgen))

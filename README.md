@@ -21,6 +21,12 @@ algorithms
         
         HashMap    : getitem, setitem
         HashSet    : add, remove, contains
+    graphs
+        BinaryTreeNode : init, str
+                         inorder, preorder, postorder
+        Heapq          : heapify, heappush, heappop
+        GraphDict      : breadthfirst, depthfirst
+                         bidirectional
 ```
 
 

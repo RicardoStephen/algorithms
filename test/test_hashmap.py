@@ -83,6 +83,9 @@ class TestHashMap(unittest.TestCase):
         self.assertEqual(len(mydict.buckets),
                          old_bucket_count * HashMap.GROWTH_FACTOR)
 
+    def test_init(self):
+        pass
+
     def test_len(self):
         for pydict, mydict in zip(self.pydicts.values(), self.mydicts.values()):
             with self.subTest(pydict = pydict, mydict = mydict):

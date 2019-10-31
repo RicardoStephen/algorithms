@@ -33,6 +33,9 @@ class TestArray(unittest.TestCase):
             self.assertEqual(myarr[idx], pyarr[idx])
         self.assertEqual(str(myarr), str(pyarr))
 
+    def test_init(self):
+        pass
+
     def test_init_invalid(self):
         with self.assertRaises(TypeError):
             x = Array(1)

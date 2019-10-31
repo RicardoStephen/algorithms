@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from .baseobject import BaseObject
+from algorithms.baseobject import BaseObject
 
 
 class LinkedList(BaseObject):

@@ -1,6 +1,6 @@
 from collections import deque
 
-from .baseobject import BaseObject
+from algorithms.baseobject import BaseObject
 
 
 class HashMap(BaseObject):

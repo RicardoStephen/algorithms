@@ -1,4 +1,4 @@
-from .baseobject import BaseObject
+from algorithms.baseobject import BaseObject
 
 
 class String(BaseObject):

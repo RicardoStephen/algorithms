@@ -19,6 +19,9 @@ class TestString(unittest.TestCase):
         self.mystrs = dict([(state, String(pystr))
                             for state, pystr in self.pystrs.items()])
 
+    def test_init(self):
+        pass
+
     def test_init_invalid(self):
         with self.assertRaises(TypeError):
             s = String(1)

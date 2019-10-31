@@ -36,7 +36,7 @@ class TestArrayList(TestArray):
 
     # Inherit check_equal
 
-    # Inherit test_init_invalid, test_len, test_str
+    # Inherit test_init, test_init_invalid, test_len, test_str
 
     # Inherit test_getitem, test_getitem2, test_getitem_invalid
 

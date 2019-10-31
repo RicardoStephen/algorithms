@@ -86,6 +86,9 @@ class TestHashSet(unittest.TestCase):
         self.assertEqual(len(myset.buckets),
                          old_bucket_count * HashSet.GROWTH_FACTOR)
 
+    def test_init(self):
+        pass
+
     def test_len(self):
         for pyset, myset in zip(self.pysets.values(), self.mysets.values()):
             with self.subTest(pyset = pyset, myset = myset):

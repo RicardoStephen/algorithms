@@ -1,4 +1,4 @@
-from . import Array
+from algorithms.datastructs.array import Array
 
 
 class ArrayList(Array):
